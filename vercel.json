@@ -1,24 +1,4 @@
 {
   "version": 2,
-  "name": "regional-wear-argentina",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "functions": {
-    "src/app/**": {
-      "maxDuration": 10
-    }
-  }
+  "name": "regional-wear-argentina"
 }
